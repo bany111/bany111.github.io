@@ -1,41 +1,141 @@
-body{
-    background-image: url(imagenes/arena2.jpg);
-    background-repeat: no-repeat;
+  body{
+            width: 1000px;
+           
+            margin: auto;
+        }
+        h1{
+            margin: 0%;
+            color: white;
+        }
+    header img{
+    width: 50%;
+    padding-left: 220px;
      
- margin: auto;
- background-attachment: fixed;
-    
-}
-
-h1{
-    text-align: center;
-}
-
-
-.logo{
-    
-    padding-left: 500px;
+    }
    
-   
-}
+        ol{
+            margin: 0%;
+            padding: 0%;
+            border-top: solid 10px rgb(255, 94, 0);
+            display: flex;
+            border-bottom: 10px solid black;
+            
+        }
+        li{
+          
+            width: 35%;
 
- nav{
+            display: inline-block;
+            margin: auto;
+            text-align: center;
+            color: black;
+
+        }
+        li:hover{
+            background-color: rgb(255, 94, 0);
+            color: white;
+        }
+        h2{
+          margin-left: 20px;
+            color: orange;
+           font-size: 15px;
+          text-decoration: underline;
+           text-decoration: overline;
+           
+        }
+        h3{
+         font-size: 25px;
+        
+         
         
         }
-        ol{
-  font-size: 0%;
-  margin:0 auto ;
-  padding-right: 10px;
- 
-  }
+       
+        article{
+            padding:0 20px;
+            box-sizing: border-box;
+            vertical-align: bottom;
+        vertical-align: top;
+       
+       
+        
 
-   li{
-    text-align: center;
-   background-color: beige;
-      color: black;
-      display: inline-block;
-      width: 24%;
-    font-size: 25px;
-    text-align: center;
-    border-right: 3px solid black;
+        }
+        article img{
+           margin-right: 15px;
+            width: 150px;
+            float: left;
+            clear: right;
+         
+            
+            
+        }
+        
+.primero{
+    
+    padding-left: 15px;
+    display: inline-block;
+    width: 47%;
+    
+    border-right: dotted 2px rgb(27, 26, 24);
 }
+        
+        
+           
+        
+       .segundo{
+        
+       
+        display: inline-block;
+        width: 51%;
+       }
+       .segundo img{
+        width: 90%;
+       }
+       .segundo img:hover{
+        transform: scale(1.4,1.4)
+       }
+       .tercero img{
+       width: 250px;
+
+       }
+
+      
+        
+        
+       
+       .tercero{
+        width: 99%;
+     
+    display: flex;
+     
+       
+       }
+       #ford{
+        
+       }
+       .tercero div{
+       border: dotted black;
+       padding-left: 15px;
+       padding-right: 15px
+        
+       }
+       
+    
+       
+       
+       footer{
+        background-color: black;
+        color: white;
+       }
+       .tabla{
+        height: 330px;
+        overflow: scroll;
+       
+       }
+table img{
+    width: 90px;
+}
+
+
+
+   
