@@ -22,9 +22,10 @@
             
         }
         li{
-          
+            
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             width: 35%;
-
+font-size: 20px;
             display: inline-block;
             margin: auto;
             text-align: center;
@@ -36,6 +37,7 @@
             color: white;
         }
         h2{
+            font-family: "diplomata";
           margin-left: 20px;
             color: orange;
            font-size: 15px;
@@ -45,7 +47,7 @@
         }
         h3{
          font-size: 25px;
-        
+        font-family: "Girassol";
          
         
         }
@@ -110,6 +112,13 @@
      
        
        }
+       .tercero p{
+
+        font-family: "caudex";
+       }
+ 
+       
+       
        #ford{
         
        }
@@ -135,7 +144,20 @@
 table img{
     width: 90px;
 }
-
-
-
+.tienda div img {
+display: flex;
+    width:20%;
+    background-color: gray;
+    
+}
+section{
+    width: 20%;
+}
+.cuarto{
    
+    display: inline-block;
+    width: 40%;
+}
+.cuarto img{
+    width: 300px;
+}
