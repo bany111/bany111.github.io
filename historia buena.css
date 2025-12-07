@@ -1,0 +1,45 @@
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.intro, .bloque {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.bloque h2 {
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
