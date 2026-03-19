@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes carrusel {
+            from{
+                clip-Path:inset (0 4000px 0 0);
+                left:1240px;
+            }
+            to{
+                clip-path: inset(0 0 0 400px);
+                left: -200px;
+                
+            }}
+            
+        .contendor{
+           
+            top: 20px;
+            
+           
+           
+        }
+        body{
+            width: 850px;
+            margin: auto;
+            height: auto;
+        }
+        .carrusel{
+             display: flex;
+            position: absolute;
+            animation-name: carrusel;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            width: 12500px;
+            left: 0;
+           
+        }
+        img{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <article class="contenedor">
+        <div class="carrusel"> <img src="cocheswrc/wrc-legend-walter-rohrl-driving-audi-quattro-s1.avif" alt="">
+        <img src="cocheswrc/Historiarally.jpg" alt="">
+    <img src="cocheswrc/1. Toyota_Ove Andersson.jpg" alt="">
+<img src="cocheswrc/image-3.webp" alt="">
+<img src="cocheswrc/1989-Montecarlo-Sainz-scaled.jpg" alt="">
+<img src="cocheswrc/wrc-rally-montecarlo-bjorn-waldegard-1979-ford-escort.avif" alt=""></div>
+    </article>
+    
+</body>
+</html>

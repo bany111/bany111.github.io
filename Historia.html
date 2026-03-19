@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de wrc</title>
+    <style>
+        @keyframes carrusel{
+    from{
+        clip-path: inset(0 200px 0 0);
+        left: 0;
+    }
+    to{
+        clip-path: inset(0 0 0 2000px);
+        left: -300px;
+    }
+}
+body{
+    width: 1024px;
+    margin: auto;
+}
+.carrusel{
+    display: flex;
+    position: relative;
+    animation-name: carrusel;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    width: 4025px;
+    top: -50px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+section{
+    width: 25%;
+}
+section img{
+    width: 300px;
+}
+         
+    </style>
+</head>
+<header class="ENCABEZADO">
+   
+
+</header>
+
+<body>
+    <section>
+    <article class="contenedor">
+        <div class="carrusel"> <img src="cocheswrc/wrc-legend-walter-rohrl-driving-audi-quattro-s1.avif" alt="">
+        <img src="cocheswrc/Historiarally.jpg" alt="">
+    <img src="cocheswrc/1. Toyota_Ove Andersson.jpg" alt="">
+<img src="cocheswrc/image-3.webp" alt="">
+<img src="cocheswrc/1989-Montecarlo-Sainz-scaled.jpg" alt="">
+<img src="cocheswrc/wrc-rally-montecarlo-bjorn-waldegard-1979-ford-escort.avif" alt=""></div>
+    </article>
+   <article class="texto">
+    </section>
+   
+</body>
+</html>
