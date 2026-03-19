@@ -1,8 +1,10 @@
-  body{
-            width: 1000px;
-           
-            margin: auto;
-        }
+
+    body {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+        
         h1{
             margin: 0%;
             color: white;
@@ -57,6 +59,7 @@ font-size: 20px;
             box-sizing: border-box;
             vertical-align: bottom;
         vertical-align: top;
+        
        
        
         
@@ -76,9 +79,9 @@ font-size: 20px;
     
     padding-left: 15px;
     display: inline-block;
-    width: 47%;
+    width: 48%;
     
-    border-right: dotted 2px rgb(27, 26, 24);
+    
 }
         
         
@@ -160,4 +163,96 @@ section{
 }
 .cuarto img{
     width: 300px;
+}
+P{
+    
+}
+
+
+@media (max-width: 480px) {
+
+   
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+   
+    header img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    
+    ol {
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+    }
+    li{
+        background-color: rgb(24, 21, 21);
+        color:white
+    }
+
+    
+    .primero,
+    .segundo {
+        width: 100%;
+        display: block;
+    }
+
+   
+    .segundo img {
+        width: 100%;
+    }
+
+    
+    .tercero {
+        flex-direction: column;
+    }
+
+    .tercero div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .tercero img {
+        width: 100%;
+    }
+
+   
+    article img {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    
+    .cuarto {
+        width: 100%;
+        display: block;
+    }
+
+    .cuarto img {
+        width: 100%;
+    }
+
+   
+    .tabla {
+        overflow-x: auto;
+        height: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    table img {
+        width: 40px;
+    }
 }
