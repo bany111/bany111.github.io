@@ -164,9 +164,11 @@ section{
 .cuarto img{
     width: 300px;
 }
-P{
+a{
+    color: black;
     
 }
+
 
 
 @media (max-width: 480px) {
