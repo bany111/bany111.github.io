@@ -1,9 +1,37 @@
 
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}
+
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+
     body {
     max-width: 1000px;
     width: 100%;
     margin: auto;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.1rem;
+   
 }
+
         
         h1{
             margin: 0%;
@@ -27,7 +55,7 @@
             
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             width: 35%;
-font-size: 20px;
+            font-size: 20px;
             display: inline-block;
             margin: auto;
             text-align: center;
@@ -41,17 +69,20 @@ font-size: 20px;
         h2{
             font-family: "diplomata";
           margin-left: 20px;
-            color: orange;
-           font-size: 15px;
+            color: rgb(22, 22, 21);
+           font-size: 30px;
           text-decoration: underline;
            text-decoration: overline;
            
         }
         h3{
-         font-size: 25px;
+         font-size: 30px;
         font-family: "Girassol";
          
         
+        }
+        h4{
+            font-size: 30px;
         }
        
         article{
@@ -198,13 +229,16 @@ a{
     }
     li{
         background-color: rgb(24, 21, 21);
-        color:white
+        color:rgb(245, 241, 241)
+    }
+    a{
+        color: white;
     }
 
     
     .primero,
     .segundo {
-        width: 100%;
+        width: 95%;
         display: block;
     }
 
@@ -219,7 +253,7 @@ a{
     }
 
     .tercero div {
-        width: 100%;
+        width: 95%;
         margin-bottom: 20px;
     }
 
@@ -236,7 +270,7 @@ a{
 
     
     .cuarto {
-        width: 100%;
+        width: 95%;
         display: block;
     }
 
@@ -256,5 +290,74 @@ a{
 
     table img {
         width: 40px;
+    }
+}
+ footer{
+    color: rgb(22, 21, 21);
+    background-color: white;
+ }
+
+
+
+ @media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        max-width: 95%; 
+        font-size: 1rem;
+    }
+
+    header img {
+        width: 70%;
+        padding-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    ol {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    li {
+        width: 33%; /
+        font-size:18px;
+        border-bottom: 1px solid #ccc;
+    }
+
+  
+    .primero, .segundo {
+        width: 100%; 
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+    .tercero {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tercero div {
+        width: 45%; 
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+  
+    .cuarto {
+        width: 48%; 
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cuarto img {
+        width: 100%;
+        max-width: 250px; 
+        height: auto;
+    }
+
+    
+    .tabla {
+        overflow-x: auto;
     }
 }
