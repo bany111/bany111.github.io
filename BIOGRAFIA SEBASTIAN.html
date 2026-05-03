@@ -56,6 +56,29 @@
 
 
     <style>
+
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}
+
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -121,9 +144,9 @@
 </head>
 <body>
 
+ <a href="#contenido" class="skip-link">Ir al contenido principal</a>
 
-
-   <header>
+   <header role="banner">
     <h1>Sébastien Loeb</h1>
     <p>Leyenda del Campeonato Mundial de Rally (WRC)</p>
 
@@ -136,6 +159,7 @@
     </div>
 
 </header>
+<main id="contenido">
 
 <nav>
     <a href="#bio">Biografía</a>
@@ -152,8 +176,8 @@
         </p>
     </section>
 
-    <section id="logros" class="card">
-        <h2>Logros</h2>
+    <section id="logros" class="card" aria-labelledby="titutlo-logros">
+        <h2 id="titutlo-logros">Logros</h2>
         <ul>
             <li>9 veces campeón del mundo de rally (WRC)</li>
             <li>Más de 80 victorias en el WRC</li>
@@ -175,9 +199,10 @@
     </section>
 
 </div>
+</main>
 
 <footer>
-    <p>© 2026 Página sobre Sébastien Loeb</p>
+    <p role="contentinfo">© 2026 Página sobre Sébastien Loeb</p>
 </footer>
 
 </body>
